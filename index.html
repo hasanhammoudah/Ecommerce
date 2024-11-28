@@ -1,39 +1,39 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <title>Comfy House</title>
+    <!-- font awsome-->
+    <script
+      src="https://kit.fontawesome.com/3b9689facf.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--custom css-->
+    <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <!-- navbar-->
+    <!--navbar-->
     <nav class="navbar">
       <div class="navbar-center">
         <span class="nav-icon">
-          <i class="fas fa-bars"> </i>
+          <i class="fas fa-bars"></i>
         </span>
-        <img src="./images/logo.svg" alt="Logo" />
+        <img src="./images/logo.svg" alt="store logo" />
         <div class="cart-btn">
           <span class="nav-icon">
-            <i class="fas fa-cart-plus">
-              <div class="cart-items">0</div>
-            </i>
+            <i class="fas fa-cart-plus"> </i>
           </span>
+          <div class="cart-items">0</div>
         </div>
       </div>
     </nav>
-    <!--end of navbar-->
+    <!-- end of Navbar-->
     <!--hero-->
     <header class="hero">
       <div class="banner">
-        <h1 class="banner-title">furniture collection</h1>
+        <h1 class="banner-title">funiture collection</h1>
         <button class="banner-btn">shop now</button>
       </div>
     </header>
@@ -45,7 +45,7 @@
       </div>
       <div class="products-center">
         <!--single product-->
-        <article class="product">
+        <!-- <article class="product">
           <div class="img-container">
             <img
               src="./images/product-1.jpeg"
@@ -53,49 +53,51 @@
               class="product-img"
             />
             <button class="bag-btn" data-id="1">
-              <i class="fas fa-shopping-cart"> add to bag </i>
+              <i class="fas fa-shipping-cart">add to bag</i>
             </button>
           </div>
           <h3>queen bed</h3>
-          <h4>$10</h4>
-        </article>
-        <!--end of single product-->
+          <h4>$16.99</h4>
+        </article> -->
+        <!-- end of single product-->
       </div>
     </section>
     <!--end of products-->
-    <!--cart-->
     <div class="cart-overlay">
       <div class="cart">
         <span class="close-cart">
-          <i class="fas fa-window-close"> </i>
+          <i class="fas fa-window-close"></i>
         </span>
         <h2>your cart</h2>
         <div class="cart-content">
           <!--cart item-->
-          <div class="cart-item">
-            <img src="./images/product-1.jpeg" alt="product-1" />
+          <!-- <div class="cart-item">
+            <img src="./images/product-1.jpeg" alt="product" />
             <div>
               <h4>queen bed</h4>
               <h5>$9.00</h5>
               <span class="remove-item">remove</span>
             </div>
             <div>
-                <i class="fas fa-chevron-up"></i>
-                <p class="item-amount">1</p>
-                <i class="fas fa-chevron-down"></i>
-
+              <i class="fas fa-chevron-up"></i>
+              <p class="item-amount">1</p>
+              <i class="fas fa-chevron-down"></i>
             </div>
-          </div>
+          </div> -->
           <!--end of cart item-->
         </div>
         <div class="cart-footer">
-            <h3>your total: $ <span class="cart-total">0</span></h3>
-            <button class="clear-cart banner-btn">clear cart</button>
+          <h3>your total: $<span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">clear cart</button>
         </div>
       </div>
     </div>
-    <!--end of cart -->
+    <!--cart-->
 
+    <!--end of cart-->
+    <!--contenful-->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>   
+     <!--app.js-->
     <script src="app.js"></script>
   </body>
 </html>
